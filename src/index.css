@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h2 {
+  font-size: 2.8rem;
+  text-align: left; /* Align headings to the left */
+  margin-bottom: 40px;
+  color: #222;
+  font-weight: bold; /* Make headings bold */
+}
+
+p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header nav li {
+  margin-left: 30px; /* Increased spacing between nav items */
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1rem; /* Slightly larger nav links */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+header nav a:hover {
+  color: #007BFF; /* Highlight color on hover */
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: #f9f9f9; /* Very light grey background */
+  padding: 120px 0; /* Increased padding */
+  text-align: left; /* Align text to the left */
+}
+
+#hero .container {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  align-items: center;
+}
+
+#hero h1 {
+  font-size: 3.5rem;
+  color: #222;
+  margin-bottom: 25px; /* Increased margin */
+  line-height: 1.2;
+}
+
+#hero p {
+  font-size: 1.4rem;
+  color: #555;
+  max-width: 800px; /* Wider text area */
+  line-height: 1.7;
+}
+
+
+/* About Section Styles */
+#about {
+  background-color: #fff; /* White background for about section */
+}
+
+/* Skills Section Styles */
+#skills {
+  background-color: #f0f0f0; /* Light grey background for skills */
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+  gap: 15px;
+}
+
+#skills li {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05); /* Subtle shadow for skills */
+  transition: transform 0.2s ease-in-out; /* Smooth transform on hover */
+}
+
+#skills li:hover {
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Contact Section Styles */
+#contact {
+  background-color: #fff; /* White background for contact */
+  text-align: center;
+}
+
+#contact p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#contact a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 0.9rem;
+}
